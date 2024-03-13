@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --fontColor-heading1: rgb(36, 34, 34);
+    --fontColor-heading2: rgb(165, 157, 157);
+    --fontSize:1.3rem;
+    --fontWeight-bold:800;
+    --fontWeight-medium:400;
+    --fontWeight-light:200;
+    
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 29rem;
+}
+.heading h2{
+    font-weight: var(--fontWeight-bold);
+    font-size: 2.2rem;
+    margin-top: 4rem;
+    color:var(--fontColor-heading1);
+
+}
+.heading p{
+    font-weight: var(--fontWeight-medium);
+    font-size: var(--fontSize);
+    color: var(--fontColor-heading2);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* .wrapper .card{
+    flex-grow: 1;
+} */
+.card{
+    margin: 1.5rem;
+    
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    height: 15rem;
+    border-radius: 0.8rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.188rem hsla(0, 2%, 40%, 0.4);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h2{
+    font-size:1.5rem;
+    font-weight: var(--fontWeight-medium);
+    padding: 1rem;
+}
+.card p{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.card i{
+    font-size: 2rem;
+    position: relative;
+    left:20rem;
+    top:3rem;
+}
+.Supervisor{
+    color:chartreuse;
+}
+.Builder{
+    color:#FF9800;
+}
+.Karma{
+    color:yellow;
+}
+.calculator{
+    color:forestgreen;
+}
+#mag{
+    color:rgb(148, 12, 221);
+}
+#house{
+    color:rgb(78, 167, 244);
+}
+#light{
+    color:rgb(217, 8, 179);
+}
+#tv{
+    color:rgb(5, 219, 226);
+}

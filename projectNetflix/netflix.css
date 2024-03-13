@@ -1,0 +1,378 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.nav-logo {
+  height: 940px;
+  width: 100%;
+  background-image: url("hero-img.jpg");
+  background-size: cover;
+  display: flex;
+}
+.logo-container {
+  height: 120px;
+  width: 300px;
+  background-image: url("pngwing.com.png");
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 16rem;
+}
+.sgin-button {
+  height: 50px;
+  width: 100px;
+  background-color: #cf0808;
+  border-radius: 8px;
+}
+.sgin-in {
+  position: relative;
+  top: 47px;
+  left: 1500px;
+}
+.sgin-in a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.nav-msg {
+  position: relative;
+  top: 300px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  border-radius: 15px;
+}
+.first-msg {
+  height: 64px;
+  width: 1100px;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+.second-msg {
+  height: 40px;
+  width: 1100px;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+.third-msg {
+  height: 30px;
+  width: 1100px;
+  font: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+.sign-in-input {
+  display: flex;
+}
+.sign-in-input input {
+  height: 60px;
+  width: 600px;
+  background-color: #d5f2dd;
+  opacity: 65%;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+input::placeholder {
+  color: darkblue;
+  font-size: 20px;
+}
+.sign-in-input button {
+  height: 65px;
+  width: 90px;
+  background-color: #cf0808;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.main {
+  background-color: black;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid #2a2b2a;
+}
+
+.box1-container {
+  display: flex;
+}
+.box1-msg-container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.box1-msg1 {
+  font-size: 48px;
+  font-weight: 800;
+  height: 65px;
+  width: 512px;
+}
+.box1-msg2 {
+  font-size: 24px;
+  font-weight: 400;
+  width: 512px;
+  height: 95px;
+  position: relative;
+  top: 10px;
+}
+
+.box1-logo {
+  height: 400px;
+  width: 600px;
+  background-image: url("tv-img.png");
+  background-size: cover;
+}
+.box2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2-msg-container {
+  display: flex;
+  flex-direction: column;
+}
+.box2-msg1 {
+  font-size: 48px;
+  font-weight: 800;
+  height: 120px;
+  width: 700px;
+}
+.box2-msg2 {
+  font-size: 24px;
+  font-weight: 400;
+  width: 700px;
+  height: 95px;
+  position: relative;
+  top: 10px;
+}
+.box2-logo {
+  height: 450px;
+  width: 450px;
+  background-image: url("box-3-img.jpg");
+  background-size: cover;
+  margin-right: 10px;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+.box3-msg1 {
+  font-size: 48px;
+  font-weight: 800;
+  height: 120px;
+  width: 400px;
+}
+.box3-msg2 {
+  font-size: 24px;
+  font-weight: 400;
+  width: 400px;
+  height: 95px;
+  position: relative;
+  top: 20px;
+}
+.box4 {
+  display: flex;
+}
+.box4-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 20px;
+}
+.box4-logo {
+  height: 500px;
+  width: 630px;
+  background-image: url("box4-img.png");
+  background-size: cover;
+}
+.box4-msg1 {
+  height: 94px;
+  width: 700px;
+  font-size: 48px;
+  font-weight: 800;
+}
+.box4-msg2 {
+  height: 60px;
+  width: 700px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.main2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 100%;
+  border-top: 10px solid #2a2b2a;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.line1 {
+  display: flex;
+  height: 83px;
+  width: 80%;
+  background-color: #2a2b2a;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.line1-Qs {
+  font-size: 34px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.line1-logo i {
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.line2 {
+  display: flex;
+  height: 83px;
+  width: 80%;
+  background-color: #2a2b2a;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.line2-Qs {
+  font-size: 34px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.line2-logo {
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.line3 {
+  display: flex;
+  height: 83px;
+  width: 80%;
+  background-color: #2a2b2a;
+  justify-content: space-between;
+  position: relative;
+
+  align-items: center;
+}
+.line3-Qs {
+  font-size: 34px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.line3-logo {
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.line4 {
+  display: flex;
+  height: 83px;
+  width: 80%;
+  background-color: #2a2b2a;
+  justify-content: space-between;
+  position: relative;
+
+  align-items: center;
+}
+.line4-Qs {
+  font-size: 34px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.line4-logo {
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.enter{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.helo{
+    position: relative;
+    top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content input{
+    height: 64px;
+    width: 600px;
+    background-color: #d5f2dd;
+    opacity: 80%  ;
+    border-radius: 10px;
+}
+.content button{
+    font-size: 20px;
+    background-color: #cf0808;
+    font-weight: 500;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 67px;
+}
+.footer{
+    border-top: 10px solid #2a2b2a ;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.data h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.data li{
+    list-style: none;
+    font-size:25px ;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 380px;
+    margin-left: 30px;
+}
+.contact h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contact li{
+    list-style: none;
+    font-size:25px ;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+

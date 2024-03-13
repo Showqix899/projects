@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+body h1{
+    color:purple;
+}
+.wrapper{
+    height: 39rem;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 3px 3px 20px 3px rgb(208, 207, 207);
+    outline: none;
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+    scrollbar-color: gray;
+    &::-webkit-scrollbar{
+        width: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color:purple;
+        opacity: .6;
+
+    }
+    &::-webkit-scrollbar-track{
+        background-color:gray;
+    }
+    
+}
+.input-box{
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 3.2rem;
+    width: 20rem;
+    margin:20px;
+    padding: 10px;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(173, 1, 173);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:purple;
+
+}
+.btn{
+    height: 3.2rem;
+    width:7rem;
+    border-radius: .5rem;
+    background-color: rgb(173, 1, 173);
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    
+}
+.btn-sound{
+    height: 2rem;
+    width:5rem;
+    margin: 0 9px;
+    background-color: rgb(175, 1, 175);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:white;
+}
+
+
+.result h2 ,h3 ,p{
+    margin: 10px;
+}
+.result h3{
+    color:rgb(141, 2, 141);
+    overflow-wrap: break-word;
+}
+.result p{
+    color:rgb(141, 2, 141);
+    overflow-wrap: break-word;
+}
+
+
+

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background:linear-gradient(to right,rgb(72, 170, 72),rgb(219, 219, 119));
+    
+}
+.wrapper{
+    display: flex;
+    background-color: red;
+    height: 62.2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 40rem;
+    width: 50rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.heading{
+    text-align: center;
+    margin:20px;
+
+}
+.jokeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    height: 3rem;
+    width: 5rem;
+    background-color: blue;
+}
