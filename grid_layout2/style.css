@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.nav{
+    grid-area: nav;
+    height: 15vh;
+    background-color: rgb(18, 4, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav1{
+    width: 50%;
+   
+}
+.nav1 h1{
+    font-family:sans-serif;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-weight: 800;
+    color:white;
+
+}
+.nav2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.nav2 h4{
+    font-family:sans-serif;
+    font-weight: 500;
+}
+.header{
+    grid-area: header;
+    height: calc(100vh - 15vh);
+    display: flex;
+
+
+}
+.msg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:rgb(98, 91, 91)
+}
+.msg div{
+    width: 70%;
+}
+.header_png {
+    width: 50%;
+    position: relative;
+    height: calc(100vh - 15vh);
+    display: flex; /* Ensure it wraps around its content */
+}
+
+.header_png img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 100%; /* Ensure the image fits inside */
+}
+
+
+.content{
+    grid-area: content;
+    height: 30rem;
+    background-color: yellow;
+}
+.side{
+    grid-area: side;
+    height: 30rem;
+    background-color: green;
+}
+.footer{
+    grid-area: footer;
+    height: 20rem;
+    background-color: rgb(0, 0, 32);
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "nav nav nav nav nav"
+    "header header header header header"
+    "content content content content side"
+    "footer footer footer footer footer";
+
+}
