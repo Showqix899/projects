@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .coloring{
+    background-color: blue;
+} */
+/* .boder{
+    border: 1px solid black;
+} */
+.nav{
+    grid-area: nav;
+    width: 100%;
+    background-color: rgb(255,244,231);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav1{
+    font-family: sans-serif;
+}
+.nav2{
+    font-family: sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.header-text{
+    margin-top: 70px;
+    width: 40%;
+    text-align: center;
+    grid-area: header-text;
+    place-self: center;
+
+    
+}
+.header-text h1{
+    font-weight:900;
+    font-size:44px;
+    font-family: sans-serif;
+}
+.header-text p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.header-text button{
+    margin-top: 30px;
+    background-color: orange;
+    height: 50px;
+    width: 140px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+
+.header-img{
+   
+    grid-area: header-img;
+    width: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.img-container {
+   width: 70vw;
+   height: 68vh;
+   background-image: url('images/banner.png');
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-size: cover;
+   border-radius: 10px;
+}
+.header{
+    display: grid;
+    grid-area: header;
+    background-color: rgb(255,244,231);
+    width: 100%;
+    grid-template-areas:"header-text header-text header-text"
+                        "header-img header-img header-img";
+}
+
+
+
+
+.feature{
+    grid-area: feature;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.feature1{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.pic1{
+    grid-area: pic1;
+    background-image: url('images/team1.png');
+    background-size: cover;
+    border-radius: 8px;
+}
+.pic2{
+    grid-area: pic2;
+    background-image: url('images/team2.png');
+    background-size: cover;
+    border-radius: 8px;
+
+}
+.pic3{
+    grid-area: pic3;
+    background-image: url('images/team3.png');
+    background-size: cover;
+    border-radius: 8px;
+
+}
+.pic4{
+    grid-area: pic4;
+    background-image: url('images/team4.png');
+    background-size: cover;
+    border-radius: 8px;
+
+}
+.feature1-imgs{
+    display: grid;
+    height: 70vh;
+    width: 30%;
+    grid-template-areas: "pic1 pic2"
+    "pic3 pic4";
+    gap: 10px;
+}
+.feature1-text{
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    padding-left: 40px;
+}
+.feature1-text p{
+    font-size: 32px;
+    font-weight: 500;
+    color:gray;
+    font-family: sans-serif;
+}
+.feature1-text b{
+    color:black
+}
+.feature1-text h1{
+    color: orange;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.feature1-text>p{
+    font-size: small;
+}
+.feature1-text button{
+    margin-top: 30px;
+    background-color: orange;
+    height: 50px;
+    width: 140px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+
+
+.feature2{
+    margin-top: 90px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.feature2-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature2-imgs{
+    width: 40%;
+    background-image: url('images/architect.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.feature2-header{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 100%;
+    padding-left: 30px;
+    border-left: 7px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.header_text{
+    padding: 20px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.skills{
+    height: 15vh;
+    place-self: center;
+    margin-top: 2vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 1px 1px  10px rgb(226, 212, 212);
+    color: gray;
+    border-radius: 8px;
+
+}
+.skills h4{
+    margin-bottom: 10px;
+    color:black;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-areas: "nav nav nav"
+    "header header header"
+    "feature feature feature";
+
+}
+
+@media screen {
+    
+}
